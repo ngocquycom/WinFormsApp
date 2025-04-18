@@ -15,6 +15,7 @@ namespace QuanLyBanLapTop.DATA
         public string TenDangNhap { get; set; } = null!;
         public string MatKhau { get; set; } = null!;
         public string QuyenHan { get; set; } = null!; // admin, user
+        //
         public virtual ICollection<HoaDon> HoaDon { get; } = new List<HoaDon>();
     }
 }
